@@ -16,6 +16,7 @@ void game_over();      //views gameover page and also play again function
 void file_input();     //put data of highscore into the file 
 void file_output();    //take data of highscore out of the file
 
+//game initialization
 int width = 40, height= 30, level = 0, option_1= 0;
 int x, y, m, n, i, j, k, fruitX, fruitY, score, game_state, flag, highscore, option_2;
 int tailX[100], tailY[100];
